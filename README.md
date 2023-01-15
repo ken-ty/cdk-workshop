@@ -1,9 +1,16 @@
-# Welcome to your CDK TypeScript project
+# This is My CDK TypeScript project
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`CdkWorkshopStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+AWS CDK のハンズオン。 https://cdkworkshop.com/ja/
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+追加で, cdk の diagram 自動生成できる　`cdk-dia` も試した.
+
+<table>
+    <tr>
+        <td>
+            <img src="https://gyazo.com/6a04ae4d6362ce5e83bfd3fc357ca221/raw" alt="">
+        </td>
+    </tr>
+</table>
 
 ## Useful commands
 
