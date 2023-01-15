@@ -7,13 +7,13 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## Useful commands
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk run draw`    create structure draw.io image
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+* `npm run build`   compile typescript to js /* typescript を js にコンパイルする */
+* `npm run watch`   watch for changes and compile /* 変更を監視してコンパイルする */
+* `npm run test`    perform the jest unit tests /* jest単体テストを実行する */
+* `cdk run draw`    create an App structure image with draw.io /* draw.io で アプリ構造イメージを作成する */
+* `cdk deploy`      deploy this stack to your default AWS account/region /* このスタックをデフォルトの AWS アカウント / リージョンにデプロイします */
+* `cdk diff`        compare deployed stack with current state /* デプロイされたスタックを現在の状態と比較する */
+* `cdk synth`       emits the synthesized CloudFormation template /* 合成された CloudFormation テンプレートを発行します */
 
 ## structure
 
