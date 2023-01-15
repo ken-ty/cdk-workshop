@@ -43,7 +43,7 @@ digraph "Diagram" {
       "CdkWorkshopStack/HelloHandler" [
         label = " HelloHandler",
         fontsize = 12,
-        image = "/Users/apple/.npm/_npx/b98735c91b702b55/node_modules/cdk-dia/icons/aws/Service/Arch_Compute/64/Arch_AWS-Lambda_64@5x.png",
+        image = "/Users/apple/myDev/cdk-workshop/node_modules/cdk-dia/icons/aws/Service/Arch_Compute/64/Arch_AWS-Lambda_64@5x.png",
         imagescale = "true",
         imagepos = "tc",
         penwidth = "0",
@@ -56,7 +56,7 @@ digraph "Diagram" {
       "CdkWorkshopStack/Endpoint" [
         label = " Endpoint",
         fontsize = 12,
-        image = "/Users/apple/.npm/_npx/b98735c91b702b55/node_modules/cdk-dia/icons/aws/Service/Arch_Networking-Content/64/Arch_Amazon-API-Gateway_64@5x.png",
+        image = "/Users/apple/myDev/cdk-workshop/node_modules/cdk-dia/icons/aws/Service/Arch_Networking-Content/64/Arch_Amazon-API-Gateway_64@5x.png",
         imagescale = "true",
         imagepos = "tc",
         penwidth = "0",
