@@ -17,4 +17,18 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 ## structure
 
-![draw.io](/diagram.png)
+<table>
+    <tr>
+        <td>
+            <img src="diagram.png" alt="this app structure image">
+        </td>
+        <td>
+            <p>lambda で 実装した API を APIGateway で 公開する. 
+                <a href="https://zvikxhonn6.execute-api.ap-northeast-1.amazonaws.com/prod/" target="_blank" rel="noopener noreferrer">
+                    こちらのURL
+                </a>
+                からお試しできる。
+            </p>
+        </td>
+    </tr>
+</table>
