@@ -1,6 +1,7 @@
 import * as cdk from 'aws-cdk-lib';
 import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as apigw from 'aws-cdk-lib/aws-apigateway';
+import { HitCounter } from './hitcounter';
 
 export class CdkWorkshopStack extends cdk.Stack {
   constructor(scope: cdk.App, id: string, props?: cdk.StackProps) {
@@ -13,9 +14,14 @@ export class CdkWorkshopStack extends cdk.Stack {
       handler: 'hello.handler' // filename is "hello", function is "handler"
     });
 
+    // HitCounter を定義
+    const helloWithCounter = new HitCounter(this, 'HelloHitCounter', {
+      downstream: hello
+    });
+
     // API Gateway REST API を定義
     new apigw.LambdaRestApi(this, 'Endpoint', {
-      handler: hello
+      handler: helloWithCounter.handler
     });
   }
 }
