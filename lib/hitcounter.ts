@@ -4,7 +4,7 @@ import * as dynamodb from 'aws-cdk-lib/aws-dynamodb';
 import { Construct } from 'constructs';
 
 export interface HitCounterProps {
-  downstream: lambda.Function;
+  downstream: lambda.IFunction;
 }
 
 export class HitCounter extends Construct {
