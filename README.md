@@ -23,12 +23,22 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
             <img src="diagram.png" alt="this app structure image">
         </td>
         <td>
-            <p>lambda で 実装した API を APIGateway で 公開する. 
-                <a href="https://zvikxhonn6.execute-api.ap-northeast-1.amazonaws.com/prod/" target="_blank" rel="noopener noreferrer">
-                    こちらのURL
-                </a>
-                からお試しできる。
-            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            CdkWorkshopStack.Endpoint8024A810
+        </td>
+        <td>
+            https://hi0ndx6sk3.execute-api.ap-northeast-1.amazonaws.com/prod/
+        </td>
+    </tr>
+    <tr>
+        <td>
+            CdkWorkshopStack.ViewHitCounterViewerEndpointCA1B1E4B
+        </td>
+        <td>
+            https://hthcr0c9ff.execute-api.ap-northeast-1.amazonaws.com/prod/
         </td>
     </tr>
 </table>
